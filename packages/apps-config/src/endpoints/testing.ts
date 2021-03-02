@@ -60,6 +60,13 @@ export function createTesting (t: TFunction): LinkOption[] {
       }
     },
     {
+      info: 'chi',
+      text: t('rpc.social', 'Chi', { ns: 'apps-config' }),
+      providers: {
+        'Social.Network': 'wss://the.chi.network'
+      }
+    },
+    {
       info: 'clover',
       text: t('rpc.clover.finance', 'Clover', { ns: 'apps-config' }),
       providers: {
@@ -193,13 +200,6 @@ export function createTesting (t: TFunction): LinkOption[] {
       text: t('rpc.sgc', 'Sgc', { ns: 'apps-config' }),
       providers: {
         SGC: 'wss://substrate.org.cn:4443'
-      }
-    },
-    {
-      info: 'social',
-      text: t('rpc.social', 'Social', { ns: 'apps-config' }),
-      providers: {
-        'Social Technologies': 'wss://the.chi.network'
       }
     },
     {

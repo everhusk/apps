@@ -14,7 +14,8 @@ const chainCrab = '#7C30DD';
 const chainCrust = '#ff8812';
 const chainClover = 'linear-gradient(to right, #52ad75, #7cc773)';
 const chainChainx = '#F6C94A';
-const chainDarwinia = 'linear-gradient(-45deg, #FE3876 0%, #7C30DD 71%, #3A30DD 100%)';
+const chainChi = 'linear-gradient(-45deg, #F2F2F2 0%, #1E222C 53%, #000000 100%)';
+const chainDarwinia = 'linear-gradient(-45deg, #FE3876 0%, #7C30DD 71%, # 100%)';
 const chainDotMog = '#020609';
 const chainHanonycash = '#0099CC';
 const chainHydrate = '#000000';
@@ -67,7 +68,6 @@ const nodeMoonbeam = '#53cbc9';
 const nodeNodle = '#1ab394';
 const nodePolkadex = '#7C30DD';
 const nodeSgc = 'linear-gradient(45deg, #0099F7 0%, #F11712 100%)';
-const nodeSocial = 'linear-gradient(-45deg, #000000 0%, #blue 71%, #1B2337 100%)';
 const nodeSora = '#2D2926';
 const nodeStafi = '#00F3AB';
 const nodeSubDAO = 'linear-gradient(50deg, #F20092 0%, #FF4D5D 100%)';
@@ -88,6 +88,7 @@ export const chainColors: Record<string, any> = [
   ['Bifrost PC1', chainRoccoBifrost],
   ['Bit.Country Tewai Chain', chainBitCountry],
   ['ChainX', chainChainx],
+  ['Chi', chainChi],
   ['Clover', chainClover],
   ['crust maxwell', chainCrust],
   ['Crust PC1', chainCrust],
@@ -162,7 +163,6 @@ export const nodeColors: Record<string, any> = [
   ['Patract Node', nodeJupiter],
   ['Polkadex Node', nodePolkadex],
   ['Sgc', nodeSgc],
-  ['Social Node ', nodeSocial],
   ['SORA-staging Node', nodeSora],
   ['Stafi node', nodeStafi],
   ['subsocial node', nodeSubsocial],

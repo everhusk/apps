@@ -60,7 +60,6 @@ import nodePolkadot from './nodes/polkadot-circle.svg';
 import nodePolkadotJs from './nodes/polkadot-js.svg';
 import nodeRobonomics from './nodes/robonomics.svg';
 import nodeSgc from './nodes/sgc.svg';
-import nodeSocial from './nodes/social.svg';
 import nodeSora from './nodes/sora-substrate.svg';
 import nodeStafi from './nodes/stafi.png';
 import nodeSubDAO from './nodes/subdao.png';
@@ -72,6 +71,7 @@ import nodeUniarts from './nodes/uniarts.png';
 import nodeUnique from './nodes/unique.png';
 import nodeZenlink from './nodes/zenlink.svg';
 import nodeZero from './nodes/zero.svg';
+import social from './chains/social.svg';
 // last-resort fallback, just something empty
 import emptyLogo from './empty.svg';
 
@@ -81,6 +81,7 @@ export const chainLogos: Record<string, unknown> = [
   ['Ares PC1', nodeAres],
   ['Crust PC1', nodeCrust],
   ['ChainX', nodeChainx],
+  ['Chi', social],
   ['darwinia crab', nodeCrab],
   ['Darwinia PC2', nodeDarwinia],
   ['DataHighway', nodeDataHighway],
@@ -172,7 +173,6 @@ export const nodeLogos: Record<string, unknown> = [
   ['Phala Collator', nodePhala],
   ['polkadot-js', nodePolkadotJs],
   ['Sgc', nodeSgc],
-  ['Social', nodeSocial],
   ['SORA-staging Node', nodeSora],
   ['Stafi Node', nodeStafi],
   ['Stafi', nodeStafi],
@@ -206,6 +206,7 @@ export const namedLogos: Record<string, unknown> = {
   canvas: nodeCanvas,
   centrifuge: nodeCentrifuge,
   chainx: nodeChainx,
+  chi: social,
   clover: nodeClover,
   crab: nodeCrab,
   crust: nodeCrust,
@@ -264,7 +265,6 @@ export const namedLogos: Record<string, unknown> = {
   rococoTrustBase: nodeTrustBase,
   rococoZenlink: nodeZenlink,
   sgc: nodeSgc,
-  social: nodeSocial,
   snakenet: chainSnakenet,
   'sora-substrate': nodeSora,
   stafi: nodeStafi,
