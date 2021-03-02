@@ -49,6 +49,7 @@ import polkadex from './polkadex';
 import robonomics from './robonomics';
 import sgc from './sgc';
 import snowbridge from './snowbridge';
+import social from './social';
 import soraSubstrate from './soraSubstrate';
 import stafi from './stafi';
 import subdao from './subdao';
@@ -116,6 +117,7 @@ const spec: Record<string, OverrideBundleDefinition> = {
   robonomics,
   'sgc-node': sgc,
   snowbridge,
+  social,
   'sora-substrate': soraSubstrate,
   stafi,
   subdao,

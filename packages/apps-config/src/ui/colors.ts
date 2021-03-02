@@ -67,6 +67,7 @@ const nodeMoonbeam = '#53cbc9';
 const nodeNodle = '#1ab394';
 const nodePolkadex = '#7C30DD';
 const nodeSgc = 'linear-gradient(45deg, #0099F7 0%, #F11712 100%)';
+const nodeSocial = 'linear-gradient(-45deg, #000000 0%, #blue 71%, #1B2337 100%)';
 const nodeSora = '#2D2926';
 const nodeStafi = '#00F3AB';
 const nodeSubDAO = 'linear-gradient(50deg, #F20092 0%, #FF4D5D 100%)';
@@ -161,6 +162,7 @@ export const nodeColors: Record<string, any> = [
   ['Patract Node', nodeJupiter],
   ['Polkadex Node', nodePolkadex],
   ['Sgc', nodeSgc],
+  ['Social Node ', nodeSocial],
   ['SORA-staging Node', nodeSora],
   ['Stafi node', nodeStafi],
   ['subsocial node', nodeSubsocial],

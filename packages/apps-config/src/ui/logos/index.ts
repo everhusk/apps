@@ -60,6 +60,7 @@ import nodePolkadot from './nodes/polkadot-circle.svg';
 import nodePolkadotJs from './nodes/polkadot-js.svg';
 import nodeRobonomics from './nodes/robonomics.svg';
 import nodeSgc from './nodes/sgc.svg';
+import nodeSocial from './nodes/social.svg';
 import nodeSora from './nodes/sora-substrate.svg';
 import nodeStafi from './nodes/stafi.png';
 import nodeSubDAO from './nodes/subdao.png';
@@ -171,6 +172,7 @@ export const nodeLogos: Record<string, unknown> = [
   ['Phala Collator', nodePhala],
   ['polkadot-js', nodePolkadotJs],
   ['Sgc', nodeSgc],
+  ['Social', nodeSocial],
   ['SORA-staging Node', nodeSora],
   ['Stafi Node', nodeStafi],
   ['Stafi', nodeStafi],
@@ -262,6 +264,7 @@ export const namedLogos: Record<string, unknown> = {
   rococoTrustBase: nodeTrustBase,
   rococoZenlink: nodeZenlink,
   sgc: nodeSgc,
+  social: nodeSocial,
   snakenet: chainSnakenet,
   'sora-substrate': nodeSora,
   stafi: nodeStafi,

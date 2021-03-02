@@ -196,6 +196,13 @@ export function createTesting (t: TFunction): LinkOption[] {
       }
     },
     {
+      info: 'social',
+      text: t('rpc.social', 'Social', { ns: 'apps-config' }),
+      providers: {
+        'Social Technologies': 'wss://the.chi.network'
+      }
+    },
+    {
       info: 'sora-substrate',
       text: t('rpc.sora-substrate', 'SORA-staging', { ns: 'apps-config' }),
       providers: {
